@@ -83,6 +83,7 @@ h4 {
   // -o-animation: 0.5s ease-out 0s 1 top-slide;
   // -moz-animation: 0.5s ease-out 0s 1 top-slide;
   margin: 0px;
+  opacity: 0.8;
   // animation-fill-mode: forwards;
   // -o-animation-fill-mode: forwards;
   // -moz-animation-fill-mode: forwards;
@@ -145,9 +146,6 @@ h4 {
   background-color: white;
   z-index: 5;
 
-  #myCarousel {
-    margin-top: 20px;
-  }
   .carousel-inner:hover .glyphicon {
     opacity: 1;
     transition: opacity 1s ease-in;
@@ -162,7 +160,7 @@ h4 {
       img {
         opacity: 0.66;
         width: 98.9vw;
-        height: 89vh;
+        height: 100vh;
         object-fit: cover;
       }
     }
@@ -194,8 +192,7 @@ h4 {
     -webkit-transition-timing-function: cubic-bezier(0.4,0,0.6,1);
   }
 
-  min-height: 95vh;
-  padding-top: 60px;
+  min-height: 100vh;
 
   .splash-header {
     justify-content: space-between;
@@ -308,6 +305,17 @@ h4 {
     line-height: 32px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
