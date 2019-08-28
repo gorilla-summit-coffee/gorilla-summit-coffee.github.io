@@ -9,8 +9,8 @@
     "start": "webpack --config build/webpack.dev.conf.js --watch",
     "compile": "webpack --config build/webpack.dev.conf.js --watch"
   },
-  "author": "",
-  "license": "",
+  "author": "William Galebach",
+  "license": "MIT",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "bootstrap-sass": "^3.3.7",
@@ -20,12 +20,15 @@
     "file-loader": "^0.11.2",
     "ignore-loader": "^0.1.2",
     "image-webpack-loader": "^3.4.2",
+    "js-yaml": "^3.13.1",
+    "mem": "4.0.0",
+    "lodash.template": "^4.5.0",
     "node-sass": "^4.6.0",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
     "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.4"
+    "webpack-dev-server": "^3.1.11"
   },
   "dependencies": {
     "jquery": "^3.2.1"

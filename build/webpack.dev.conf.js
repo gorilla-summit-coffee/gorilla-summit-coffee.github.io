@@ -70,7 +70,7 @@ module.exports = {
 
     devServer: {
         inline: true,
-        contentBase: './build',
+        contentBase: '../',
         stats: { colors: true }
     }
 };
