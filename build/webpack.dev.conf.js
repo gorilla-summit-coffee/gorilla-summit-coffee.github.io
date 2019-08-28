@@ -3,7 +3,7 @@ var path = require("path");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 const extractSass = new ExtractTextPlugin({
-    filename: "./css/style.css"
+    filename: "../css/style.css"
     // disable: process.env.NODE_ENV === "development"
 });
 
@@ -15,7 +15,7 @@ module.exports = {
     },
 
     output: {
-        path: __dirname + '/build',
+        path: __dirname + '../',
         filename: 'style.css'
     },
 

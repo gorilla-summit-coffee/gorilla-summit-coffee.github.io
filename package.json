@@ -1,10 +1,13 @@
 {
-  "name": "lndr",
+  "name": "gorilla-summit-coffee",
   "version": "1.0.0",
   "description": "Gorilla Summit Coffee Site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "webpack --config build/webpack.dev.conf.js --watch",
+    "compile": "webpack --config build/webpack.dev.conf.js --watch"
   },
   "author": "",
   "license": "",
